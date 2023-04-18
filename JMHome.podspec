@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'JMHome'
-  s.version          = '1.0.3'
+  s.version          = '1.0.4'
   s.summary          = 'A short description of JMHome.'
 
 # This description is used to generate tags and improve search results.
@@ -28,7 +28,7 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'git@github.com:shijianmei/JMHome.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '11.0'
 
   s.source_files = 'JMHome/Classes/**/*'
 
@@ -41,4 +41,5 @@ TODO: Add long description of the pod here.
   # s.dependency 'AFNetworking', '~> 2.3'
   
   s.dependency 'RDVTabBarController', '~> 1.3'
+  s.dependency 'JMModuleInterface'  
 end

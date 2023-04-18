@@ -6,10 +6,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <RDVTabBarController/RDVTabBarController.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface JMTabbarController : UITabBarController
+@interface JMTabbarController : RDVTabBarController
 
 @end
 

@@ -1,10 +1,10 @@
 use_frameworks!
 
-platform :ios, '10.0'
+platform :ios, '11.0'
 
 target 'JMHome_Example' do
   pod 'JMHome', :path => '../'
-
+  pod 
   target 'JMHome_Tests' do
     inherit! :search_paths
 

@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		082A28AC0443F94D0B253B60 /* Pods_JMHome_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JMHome_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0E7FC9E94BC375092961CCE8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		0E7FC9E94BC375092961CCE8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		1127FB3231D649A7F84F22E3 /* Pods-JMHome_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JMHome_Tests.release.xcconfig"; path = "Target Support Files/Pods-JMHome_Tests/Pods-JMHome_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* JMHome_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JMHome_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -62,9 +62,9 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9DD1C11C49F59CD42376341C /* Pods-JMHome_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JMHome_Tests.debug.xcconfig"; path = "Target Support Files/Pods-JMHome_Tests/Pods-JMHome_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		AA4239CABF82B526AE0EFF31 /* JMHome.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = JMHome.podspec; path = ../JMHome.podspec; sourceTree = "<group>"; };
+		AA4239CABF82B526AE0EFF31 /* JMHome.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JMHome.podspec; path = ../JMHome.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B6B60246A290D9C719DB8604 /* Pods-JMHome_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JMHome_Example.release.xcconfig"; path = "Target Support Files/Pods-JMHome_Example/Pods-JMHome_Example.release.xcconfig"; sourceTree = "<group>"; };
-		C7B7E0FA9AAFEFB426CB0F71 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		C7B7E0FA9AAFEFB426CB0F71 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		CEC30B94A44C62B25AFE7723 /* Pods_JMHome_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JMHome_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F13DEEBC7701E6AC0F486535 /* Pods-JMHome_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JMHome_Example.debug.xcconfig"; path = "Target Support Files/Pods-JMHome_Example/Pods-JMHome_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -193,7 +193,6 @@
 				9DD1C11C49F59CD42376341C /* Pods-JMHome_Tests.debug.xcconfig */,
 				1127FB3231D649A7F84F22E3 /* Pods-JMHome_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
